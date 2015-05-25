@@ -5,7 +5,7 @@ directory):
 
 - From the command line:
 
-    ruby ledger.rb ledger.csv
+    `ruby ledger.rb ledger.csv`
 
   (this will simply print the underlying data structures)
 
