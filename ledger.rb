@@ -33,6 +33,9 @@ require "json"
 
 class Ledger
 
+  attr_reader :balances
+  attr_reader :entries
+
   def initialize(filename)
     @balances = {}
     @entries = {}
@@ -94,14 +97,6 @@ class Ledger
       .round(2)
 
     in_amount - out_amount
-  end
-
-  def entries
-    @entries
-  end
-
-  def balances
-    @balances
   end
 
   def dump
