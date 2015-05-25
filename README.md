@@ -19,5 +19,5 @@ directory):
      > day = Date.new("2015-01-17")
      > ledger.statement_on day, "john"
   ```
-  Additionally, the auxiliary instance methods Ledger.dump, Ledger.entries,
-  and Ledger.balances can be used to inspect the data.
+  Additionally, the auxiliary instance methods `Ledger.dump`,
+  `Ledger.entries`, and `Ledger.balances` can be used to inspect the data.
